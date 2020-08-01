@@ -1,0 +1,104 @@
+   	
+     	body{
+            font-size: 16px;
+     		background-color: coral;
+
+     	}
+     	#header-nav{
+     		background-color: rgb(201, 76, 76);
+     		border-radius: 0;
+     		border: 0;
+     		padding: 0;
+     		border-bottom: 2px solid black;
+
+     	}
+        .navbar-brand {
+        	font-size: 15px;
+           	padding: 20px;
+        }
+        
+.menu a{
+	text-align: center;
+	color: black;
+	background-color: gray;
+}
+     .menu a:hover{
+     	background-color: yellow;
+     }
+     .navbar-toggler-icon{
+     	padding-right: 20px;
+     }
+.navbar-toggler, .d-block, .d-sm-none{
+margin-right: 20px;
+border: 2px solid black;
+}
+h2{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.description{
+padding: 20px;
+background-color: rgb(201, 76, 76);
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+p{
+	margin-left: auto;
+	margin-right: auto;text-align: justify;
+	margin-top: 15px;
+font-size: 20px;
+}
+
+hr{
+	border-bottom: 1px solid black;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+@media (min-width: 0px) and (max-width: 575px){
+	.navbar-brand h1{
+font-size: 4vw;
+	}
+	.title h2{
+		font-size: 4vw;
+	}
+	.description h4{
+		font-size: 4vw;
+	}
+	.description p{
+		font-size: 3vw;
+	}
+
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+	.navbar-brand h1{
+font-size: 4vw;
+	}
+	.title h2{
+		font-size: 4vw;
+	}
+	.description h4{
+		font-size: 4vw;
+	}
+	.description p{
+		font-size: 3vw;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+	.navbar-brand h1{
+font-size: 4vw;
+	}
+	.title h2{
+		font-size: 4vw;
+	}
+	.description h4{
+		font-size: 4vw;
+	}
+	.description p{
+		font-size: 2vw;
+	}
+}
+ 
